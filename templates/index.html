@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Escacs Web</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        #tauler { display: grid; grid-template-columns: repeat(8, 60px); width: 480px; margin: auto; }
+        .casella { width: 60px; height: 60px; display: flex; justify-content: center; align-items: center; font-size: 32px; cursor: pointer; }
+        .blanca { background-color: #f0d9b5; }
+        .negra { background-color: #b58863; }
+        .seleccionada { outline: 3px solid red; }
+    </style>
+</head>
+<body>
+    <h1>Escacs Web</h1>
+    <div id="tauler"></div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
